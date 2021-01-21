@@ -3,7 +3,9 @@
 // ex. reverseString('hello') === 'olleh'
 
 function reverseString(str) {
-  return 'Let\'s Start'
+	return str.split('').reverse().join('')
+
+	
 }
 
 
